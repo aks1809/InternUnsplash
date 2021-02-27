@@ -1,0 +1,44 @@
+.logo {
+  margin: 16px;
+}
+
+.logo > img {
+  width: 170px;
+}
+
+.smallLogo {
+  margin: 16px;
+}
+
+.smallLogo > img {
+  width: 50px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+
+.ant-layout-header {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  width: 250px !important;
+  height: 40px !important;
+  margin-right: 15px;
+  border-radius: 100px !important;
+}
+
+.ant-input-prefix {
+  margin-right: 10px !important;
+}
+
+.site-layout-background {
+  height: 100%;
+}

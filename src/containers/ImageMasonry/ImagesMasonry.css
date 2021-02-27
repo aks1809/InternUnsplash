@@ -1,0 +1,44 @@
+.search-text {
+  font-family: "Lobster", cursive;
+  margin-bottom: 40px;
+}
+
+.search-text > span {
+  font-size: xx-large;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.ant-card {
+  height: fit-content;
+}
+
+.ant-card-body {
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.user-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes,
+.twitter {
+  display: flex;
+  align-items: center;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ant-pagination-options {
+  display: none;
+}
